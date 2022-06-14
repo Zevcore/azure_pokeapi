@@ -54,16 +54,16 @@ class Main extends Component {
                     <table className="pokemon_view">
                         <tr><td>Type</td><td>Front</td><td>Back</td></tr>
                         <tr>
-                            <td>Male</td><td><img src={this.state.pokemon_data.sprites.front_default}></img></td>
-                            <td><img src={this.state.pokemon_data.sprites.back_default}></img></td>
+                            <td>Male</td><td><img alt="front_default" src={this.state.pokemon_data.sprites.front_default}></img></td>
+                            <td><img alt="back_default" src={this.state.pokemon_data.sprites.back_default}></img></td>
                         </tr>
                         <tr>
-                            <td>Female</td><td><img src={this.state.pokemon_data.sprites.front_female}></img></td>
-                            <td><img src={this.state.pokemon_data.sprites.back_female}></img></td>
+                            <td>Female</td><td><img alt="front_female" src={this.state.pokemon_data.sprites.front_female}></img></td>
+                            <td><img alt="back_female" src={this.state.pokemon_data.sprites.back_female}></img></td>
                         </tr>
                         <tr>
-                            <td>Shiny</td><td><img src={this.state.pokemon_data.sprites.front_shiny}></img></td>
-                            <td><img src={this.state.pokemon_data.sprites.back_shiny}></img></td>
+                            <td>Shiny</td><td><img alt="front_shiny" src={this.state.pokemon_data.sprites.front_shiny}></img></td>
+                            <td><img alt="back_shiny" src={this.state.pokemon_data.sprites.back_shiny}></img></td>
                         </tr>
                     </table>
 
